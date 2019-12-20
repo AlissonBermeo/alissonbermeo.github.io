@@ -1,0 +1,41 @@
+<div id="sidebar">
+  <header>
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <a href= 
+        {% if site.profile-img.url == '' %}
+        "{{ "/" | relative-url}}"
+        {% else %}
+        "{{site.profile-img.url}}"
+        {% endif %}>
+
+        <img class="profile-img" src=
+        {% if site.profile-img.img-source == '' %}
+        "/assets/img/profile.jpg"
+        {% else %}
+        "{{site.profile-img.img-source}}"
+        {% endif %} >
+
+      </a>
+      <a class="title-text" href=
+      {% if site.profile-img.url == '' %}
+        "{{ "/" | relative-url}}"
+        {% else %}
+        "{{site.profile-img.url}}"
+        {% endif %} >
+        
+        {% unless page.url == "/" %}
+          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endunless %}
+        {{ site.title }}
+      </a>
+    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    <p class="lead">{{ site.description }}</p>
+  </header>
+  {% include sidebar-nav-links.html %}
+
+  {% if site.version %}
+    <span class="site-version">Currently {{ site.version }}</span>
+  {% endif %}
+
+  {% include sidebar-icon-links.html %}
+</div>
