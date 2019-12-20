@@ -5,7 +5,7 @@ excerpt: "Un sistema de información es un conjunto de elementos interrelacionad
 categories:
   - Unidad 1
 tags:
-  - Definicion
+- Introduccion
 ---
 
 ## Concepto

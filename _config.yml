@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Medina Blog
+title:            Bermeo Alisson
 tagline:          ''
-description:      'A Software Engineer Student'
+description:      'Student'
 url:              
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
@@ -24,11 +24,12 @@ collections:
     permalink: /:collection/:title/
 
 author:
-  name: 'Medina'
+  name: 'Bermeo Alisson'
   url:  ''
-  github-user: 'NigelMedina28'         
-  facebook-user: 'Nigelo09'
-  instagram-user: 'nigelmedina9' 
+  github-user: 'AlissonBermeo'         
+  facebook-user: 'alisson.bermeo.16'
+  instagram-user: '_citla_16'
+  twitter-user: 'AlissonBermeo3'
 
 paginate:         5
 # paginate_path:    '/page:num'

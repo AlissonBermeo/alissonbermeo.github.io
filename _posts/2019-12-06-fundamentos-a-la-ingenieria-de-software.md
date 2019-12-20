@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Fundamentos a la Ingenieria de Software (IS)"
+title: "Fundamentos a la Ingenieria de Software"
 excerpt: "La ingeniería de software es una aplicación práctica del conocimiento científico para proveer metodologías y técnicas que ayuden a desarrollar"
 categories:
   - Unidad 1
 tags:
-  - Definicion
+- Introduccion
+- Definicion
+- ingeneria-Software
 ---
 
 ## Definición de IS

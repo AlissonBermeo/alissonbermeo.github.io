@@ -1,20 +1,10 @@
 ---
 layout: post
-title: "Blog 3"
+title: "Notas Sistemas de información"
 categories:
-  - aciform
-  - antiquarianism
-  - arrangement
-  - asmodeus
-  - broder
-  - buying
-  - championship
-  - chastening
-  - disinclination
-  - disinfection
-tags:
-  - categories
-  - edge case
+  - Notas
 ---
 
-This post has many categories.
+### Concepto
+
+Un sistema de información es un conjunto de elementos interrelacionados con el propósito de prestar atención a las demandas de información de una organización, para elevar el nivel de conocimientos que permitan un mejor apoyo a la toma de decisiones y desarrollo de acciones
